@@ -1,1 +1,2 @@
-# Home_Work-Programming-Languages
+# Home Work Programming Languages
+## Здесь лежат домашние задания по курсу "Знакомство с языками программирования"
