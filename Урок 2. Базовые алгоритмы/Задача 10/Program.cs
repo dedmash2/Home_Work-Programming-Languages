@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*
+    Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+*/
+Console.WriteLine("Введите трехзначное число!!!");
+int num = int.Parse(Console.ReadLine() ?? "");
+
+if (num >= 100 && num < 1000)
+{
+    Console.WriteLine((num / 10) % 10);
+}
+else
+{
+    Console.WriteLine("Неверно. Введите трехзначное число!!!");
+}
